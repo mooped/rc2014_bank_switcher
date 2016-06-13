@@ -1,9 +1,9 @@
-Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 13/06/2016 14:14:56
+Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 13/06/2016 15:26:22
 
 BeginCmp
 TimeStamp = /575E9745;
 Reference = D1;
-ValeurCmp = DIODE;
+ValeurCmp = 1N4148;
 IdModule  = D3;
 EndCmp
 
@@ -106,16 +106,16 @@ IdModule  = DIP-14__300;
 EndCmp
 
 BeginCmp
-TimeStamp = /5754A149;
-Reference = U3;
-ValeurCmp = 74LS32;
+TimeStamp = /575E8C9F;
+Reference = U2;
+ValeurCmp = 74HCT00;
 IdModule  = DIP-14__300;
 EndCmp
 
 BeginCmp
-TimeStamp = /575E8C9F;
-Reference = U4;
-ValeurCmp = 74HCT00;
+TimeStamp = /5754A149;
+Reference = U3;
+ValeurCmp = 74LS32;
 IdModule  = DIP-14__300;
 EndCmp
 
