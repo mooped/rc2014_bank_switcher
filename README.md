@@ -13,5 +13,5 @@ ROM is mapped as usual (0x0000 to 0x1fff) on reset. Any write to IO address 0xf0
 
 The gerbers in v1.0 have been tested and work correctly. Later versions have not been built or tested. There is a minor error in v1.0: the hole for pin A8 of the RC2014 bus header is too small for a standard header. This signal is not used so the problem is resolved by simply removing the pin from the header.
 
-v1_0 - Initial revision.
-v1_1 - Enlarged A8 of the RC2014 bus header. Enlarged holes for P3 (auxilliary A15 output header).
+v1.0 - Initial revision.
+v1.1 - Enlarged A8 of the RC2014 bus header. Enlarged holes for P3 (auxilliary A15 output header).
