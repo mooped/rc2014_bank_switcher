@@ -1,6 +1,8 @@
 # RC2014 Bank Switcher
 Implements a minimal bank switcher to swap the RC2014 boot ROM for 32kB of RAM with 1x 74HCT00, 1x 74LS32, and 1x 74HCT04.
 
+![Assembled Board](https://raw.githubusercontent.com/mooped/rc2014_bank_switcher/master/20160629_205203.jpg "Assembled Board")
+
 Designed to work with one standard RC2014 ROM module and two standard RC2014 RAM modules.
 
 One RAM module and the bank switcher are installed in any slot in the centre of the backplane (slots 3-8). The ROM and the second RAM module need their A15 signal replaced with output from the bank switcher. This is most easily achieved through the jumpers on the RC2014 backplane between slots 2 and 3 and slots 6 and 7.
@@ -13,5 +15,8 @@ ROM is mapped as usual (0x0000 to 0x1fff) on reset. Any write to IO address 0xf0
 
 The gerbers in v1.0 have been tested and work correctly. Later versions have not been built or tested. There is a minor error in v1.0: the hole for pin A8 of the RC2014 bus header is too small for a standard header. This signal is not used so the problem is resolved by simply removing the pin from the header.
 
+![Boards](https://raw.githubusercontent.com/mooped/rc2014_bank_switcher/master/20160629_220627.jpg "Boards")
+
 v1.0 - Initial revision.
+
 v1.1 - Enlarged A8 of the RC2014 bus header. Enlarged holes for P3 (auxilliary A15 output header).
